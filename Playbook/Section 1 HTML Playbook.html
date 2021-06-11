@@ -1,0 +1,88 @@
+<!-- This will comment out -->
+
+<!-- <h1> </h1> to <h6></h6> 6 is the max and the smallest -->
+
+<!-- <meta charset="utf-8"> always use this setting -->
+
+<!-- Table Notes: -->
+
+Tables:
+
+
+
+<!-- Create a 2x2 with:
+
+<table>
+  <tr>
+    <td>Skill A</td>
+    <td>2</td>
+    <td>Skill B</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Skill C</td>
+    <td>2</td>
+    <td>Skill D</td>
+    <td>2</td>
+  </tr>
+</table>
+
+cellspacing="10       add some cell padding to the table
+
+
+Add a link with a name with this
+
+  <p> <a href="https://superuser.com/questions/1287429/how-to-fix-blurry-text-in-windows-10-with-multiple-monitors">
+      Totally not phony website here! </a></p>
+
+
+
+  Formatting
+
+  <strong>Make Me Bold!</strong>
+
+  <em>Italics</em>
+
+  <hr size="5" noshade>  horizonal rules or just big bars
+
+
+
+  Submit a #form
+
+
+  <form class="" action="index.html" method="post">     create a feedback submit tool
+
+  <label>Your Name:</label>
+  <input type="text" name="" value="">                   Create a Your Name box with an entry space
+
+  <input type="submit" name="">                         create a submit button
+
+  <label>Do you want to sign up to the email list?</label>
+  <input type="checkbox" name="" value="">               add a checkbox
+
+  <input type="color" name="" value=""><br>
+  <label>Password</label>                                add a password
+ </form>
+
+the action tells the form what to do so "index.html" will just take to the homepage
+but if you chane it to mailto: this will open an email submit from the PCs defalut email client
+
+enctype="text/plain"                        this will ensure the email's encoded proplerly
+the email         input type will do basic vaildation like an @ being used with a .com
+
+
+using the yourName input field will allow proper classifcation in the back end so the datas sent to the right place
+
+method="post"    will submit the code entry
+
+A nice form creation tool here:
+
+<form action="mailto:123@gmail.com" method="post" enctype="text/plain">
+  <label>Your Name:</label>
+  <input type="text" name="yourName" value=""><br>
+  <label>Your Email:</label>
+  <input type="email" name="yourEmail" value=""><br>
+  <label>Your Message:</label><br>
+  <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+  <input type="submit" name="">
+</form>
